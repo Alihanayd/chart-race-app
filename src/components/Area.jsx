@@ -1,6 +1,6 @@
 const Area = (props) => {
   return (
-    <div className="app-area" style={{ height: props.data.length * 40 }}>
+    <div className="app-area" style={{ height: props.data.length * 50 }}>
       {props.children}
     </div>
   );
